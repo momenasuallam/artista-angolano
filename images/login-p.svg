@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="546" height="886" viewBox="0 0 546 886">
+  <defs>
+    <filter id="base" x="0" y="142.509" width="396.445" height="676.362" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="22" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Mask" width="349.362" height="551.97" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_28" data-name="Group 28" transform="translate(-247 -110)">
+    <g id="Background" transform="translate(289.283 110)" opacity="0.736">
+      <circle id="Oval" cx="252" cy="252" r="252" transform="translate(-0.283 69)" fill="#ff9b21"/>
+      <path id="Oval-2" data-name="Oval" d="M44.5,0C69.077,0,89,20.147,89,45S69.077,90,44.5,90,0,69.853,0,45,19.923,0,44.5,0Z" transform="translate(360.717 796)" fill="#fb5253"/>
+      <path id="Polygon" d="M53.664,0l53.664,53.664L53.664,107.328,0,53.664Z" transform="translate(156.611)" fill="#fb5253"/>
+      <path id="Polygon-2" data-name="Polygon" d="M26.284,0,52.569,26.284,26.284,52.569,0,26.284Z" transform="translate(35.046 755.674)" fill="#ff9b21"/>
+      <path id="Polygon-3" data-name="Polygon" d="M13.142,0,26.284,13.142,13.142,26.284,0,13.142Z" transform="translate(428.215 68.996)" fill="#fb5253"/>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(308 278.184)">
+      <g id="Group" transform="matrix(0.999, -0.035, 0.035, 0.999, 0, 12.919)">
+        <g transform="matrix(1, 0.03, -0.03, 1, -54.64, -183.12)" filter="url(#base)">
+          <rect id="base-2" data-name="base" width="274.89" height="565.112" rx="36.45" transform="matrix(1, -0.03, 0.03, 1, 61, 181.1)" fill="#f2f2f2"/>
+        </g>
+        <path id="Screen" d="M225.7,540.273H24.3A24.28,24.28,0,0,1,0,515.973V24.3A24.279,24.279,0,0,1,24.3,0H58.044V5.747a13.77,13.77,0,0,0,13.77,13.77H178.942a13.77,13.77,0,0,0,13.77-13.77V0H225.7A24.279,24.279,0,0,1,250,24.3V515.973a24.28,24.28,0,0,1-24.3,24.3Z" transform="translate(12.047 12.047)" fill="#fb5253"/>
+        <g id="Illustration" transform="translate(20.808 0)">
+          <rect id="Mask-2" data-name="Mask" width="349.362" height="551.97" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
