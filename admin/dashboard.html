@@ -1,164 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dashboard</title>
 
-    <!-- CSS files -->
-    <link href="../css/main.css" rel="stylesheet" />
-    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
 
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body class="bgdash">
-    <div class="tophead">
-       <div class="mainlogo1">
-         <h2>Artista<br>Angolano</h2>
-       </div>
-       <div class="userdp">
-         <div class="profilpic">
-           <img src="../images/team-3.png" />
-           <span></span>
-         </div>
-         <p>Ana Doe</p>
-         <a href="#"><i class="fa fa-sign-out colorpri"></i></a>
-       </div>
+  <!-- CSS files -->
+  <link href="../css/main.css" rel="stylesheet" />
+  <link href="../css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body class="bgdash">
+  <div class="tophead">
+    <div class="mainlogo1">
+      <h2>Artista<br>Angolano</h2>
     </div>
-   <div class="row">
-     <div class="col-md-3">
-        <div class="dashsidebar">
-       <div class="userdp margbott1">
-         <div class="profilpic">
-           <img src="../images/team-3.png" />
-           <span></span>
-         </div>
-         <div class="usermeta">
-           <h2>Ana Doe</h2>
-         <p>Operadora</p>
-         </div>
-          
-       </div>
-       <div class="bardashdiv">
-         <h2 class="colorpri fontblack">Painel</h2>
-         <a><i class="fa fa-angle-down colorpri"></i></a>
-       </div>
-        <div class="bardashdiv">
-         <h2 class="colorli fontbook">Definições</h2>
-         <a><i class="fa fa-angle-down colorli"></i></a>
-       </div>
-       <div>
-         <button class="buttonpri">Novo Artista</button>
-       </div>
-    </div>
-     </div>
-
- <div class="col-md-9">
-      <div class="maindash">
-       <div class="paneltxtdiv">
-         <span><i class="fa fa-tachometer"></i></span>
-         <p>Painel</p>
-       </div>
-
-       <div class="tablepanel">
-
-        <div class="tabletop">
-         <div>
-            <h2>Artistas</h2>
-         </div>
-         <div>
-             <div class="search"> <i class="fa fa-search"></i> <input type="text" class="form-control" placeholder="Procurar"></div>
-         </div>
-        </div>
-         <div class="table-responsive">
-  <table class="table table-hover">
-    <thead>
-    <tr>
-      <th scope="col" width="20%">Nome</th>
-      <th scope="col" width="20%">Email</th>
-      <th scope="col" width="20%">Telefone</th>
-      <th scope="col" width="20%">Data de Inscrição</th>
-      <th scope="col" width="20%">Ação</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Mike Bhand</td>
-      <td>mikebhand@email.com </td>
-      <td> +923123456  </td>
-      <td>25 Apr, 2018  </td>
-      <td>   <button class="buttonpri2" data-bs-toggle="modal" data-bs-target="#detailModal">Detalhes</button></td>
-    </tr>
-     <tr>
-      <td>Mike Bhand</td>
-      <td>mikebhand@email.com </td>
-      <td> +923123456  </td>
-      <td>25 Apr, 2018  </td>
-      <td>   <button class="buttonpri2" data-bs-toggle="modal" data-bs-target="#detailModal">Detalhes</button></td>
-    </tr>
-     <tr>
-      <td>Mike Bhand</td>
-      <td>mikebhand@email.com </td>
-      <td> +923123456  </td>
-      <td>25 Apr, 2018  </td>
-      <td>   <button class="buttonpri2" data-bs-toggle="modal" data-bs-target="#detailModal">Detalhes</button></td>
-    </tr>
-     <tr>
-      <td>Mike Bhand</td>
-      <td>mikebhand@email.com </td>
-      <td> +923123456  </td>
-      <td>25 Apr, 2018  </td>
-      <td>   <button class="buttonpri2" data-bs-toggle="modal" data-bs-target="#detailModal">Detalhes</button></td>
-    </tr>
- 
-  </tbody>
-  </table>
-</div>
-       </div>
-    </div>
- </div>
-   </div>
-
-
-<!-- Detail Model -->
-   <div class="modal" id="detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true">
-  <div class="modal-dialog detailmodl">
-    <div class="modal-content">
-      <div class="modal-body">
-        <div class="modaldelt">
-          <div class="deta1">
-             <h2>Detalhes</h2>
-           <p>Name:  <span>Evanilson Abril</span></p>
-           <p>Date of Birth:  <span>02/16/1989</span> </p>
-           <p>ID Number: <span>45434534342234322323</span></p>
-           <p>Status: <span>Active</span></p>
-          </div>
-          <div class="deta2">
-             <img src="../images/dummy-pic.png" />
-          </div>
-        </div>
-
-        <div>
-            <button type="button" class="buttonpri3">Option</button>
-              <button type="button" class="buttonpri3">Option</button>
-                <button type="button" class="buttonpri3">Option</button>
-           <button type="button" class="buttonpri3" data-bs-dismiss="modal">Close</button>
-      
-        </div>
+    <div class="userdp">
+      <div class="profilpic">
+        <img src="../images/team-3.png" />
+        <span></span>
       </div>
-    
+      <p>Ana Doe</p>
+      <a href="#"><i class="fa fa-sign-out colorpri"></i></a>
     </div>
   </div>
-</div>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="dashsidebar">
+        <div class="userdp margbott1">
+          <div class="profilpic">
+            <img src="../images/team-3.png" />
+            <span></span>
+          </div>
+          <div class="usermeta">
+            <h2>Ana Doe</h2>
+            <p>Operadora</p>
+          </div>
 
-    <!-- JavaScript File -->
-    <script src="../js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <script src="../js/auth.js"></script>
-  </body>
+        </div>
+        <div class="bardashdiv">
+          <h2 class="colorpri fontblack">Painel</h2>
+          <a><i class="fa fa-angle-down colorpri"></i></a>
+        </div>
+        <div class="bardashdiv">
+          <h2 class="colorli fontbook">Definições</h2>
+          <a><i class="fa fa-angle-down colorli"></i></a>
+        </div>
+        <div>
+          <button class="buttonpri">Novo Artista</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-9">
+      <div class="maindash">
+        <div class="paneltxtdiv">
+          <span><i class="fa fa-tachometer"></i></span>
+          <p>Painel</p>
+        </div>
+
+        <div class="tablepanel">
+
+          <div class="tabletop">
+            <div>
+              <h2>Artistas</h2>
+            </div>
+            <div>
+              <div class="search"> <i class="fa fa-search"></i> <input type="text" class="form-control"
+                  placeholder="Procurar"></div>
+            </div>
+          </div>
+          <div class="table-responsive">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th scope="col" width="20%">Nome</th>
+                  <th scope="col" width="20%">Email</th>
+                  <th scope="col" width="20%">Telefone</th>
+                  <th scope="col" width="20%">Data de Inscrição</th>
+                  <th scope="col" width="20%">Ação</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Mike Bhand</td>
+                  <td>mikebhand@email.com </td>
+                  <td> +923123456 </td>
+                  <td>25 Apr, 2018 </td>
+                  <td> <button class="buttonpri2" data-bs-toggle="modal" data-bs-target="#detailModal">Detalhes</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Mike Bhand</td>
+                  <td>mikebhand@email.com </td>
+                  <td> +923123456 </td>
+                  <td>25 Apr, 2018 </td>
+                  <td> <button class="buttonpri2" data-bs-toggle="modal" data-bs-target="#detailModal">Detalhes</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Mike Bhand</td>
+                  <td>mikebhand@email.com </td>
+                  <td> +923123456 </td>
+                  <td>25 Apr, 2018 </td>
+                  <td> <button class="buttonpri2" data-bs-toggle="modal" data-bs-target="#detailModal">Detalhes</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Mike Bhand</td>
+                  <td>mikebhand@email.com </td>
+                  <td> +923123456 </td>
+                  <td>25 Apr, 2018 </td>
+                  <td> <button class="buttonpri2" data-bs-toggle="modal" data-bs-target="#detailModal">Detalhes</button>
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Detail Model -->
+  <div class="modal" id="detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true">
+    <div class="modal-dialog detailmodl">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="modaldelt">
+            <div class="deta1">
+              <h2>Detalhes</h2>
+              <p>Name: <span>Evanilson Abril</span></p>
+              <p>Date of Birth: <span>02/16/1989</span> </p>
+              <p>ID Number: <span>45434534342234322323</span></p>
+              <p>Status: <span>Active</span></p>
+            </div>
+            <div class="deta2">
+              <img src="../images/dummy-pic.png" />
+            </div>
+          </div>
+
+          <div>
+            <button type="button" class="buttonpri3">Option</button>
+            <button type="button" class="buttonpri3">Option</button>
+            <button type="button" class="buttonpri3">Option</button>
+            <button type="button" class="buttonpri3" data-bs-dismiss="modal">Close</button>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript File -->
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="../js/auth.js"></script>
+</body>
+
 </html>

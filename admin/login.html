@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
 
-    <!-- CSS files -->
-    <link href="../css/main.css" rel="stylesheet" />
-    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
 
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body class="">
-    <div class="container dcont">
-      <div class="divloginmain">
-            <div class="row aligncenter prel">
+  <!-- CSS files -->
+  <link href="../css/main.css" rel="stylesheet" />
+  <link href="../css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body class="">
+  <div class="container dcont">
+    <div class="divloginmain">
+      <div class="row aligncenter prel">
         <div class="col-md-5 disnonimg">
           <div class="mblimg">
             <img src="../images/mobileloginpic.png" />
@@ -39,23 +38,15 @@
 
               <form>
                 <div class="form-floating mb-3">
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="floatingInput"
-                    placeholder="byron@email.com"
-                    value="byron@email.com"
-                  />
+                  <input type="email" class="form-control" id="floatingInput" placeholder="byron@email.com"
+                    value="byron@email.com" />
                   <label for="floatingInput">Email</label>
                 </div>
                 <div class="form-floating">
-                  <input
-                    type="password"
-                    class="form-control"
-                    id="floatingPassword"
-                    placeholder="Password"
-                  />
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password" />
                   <label for="floatingPassword">Senha</label>
+
+                  <a href="#" class="passforget">Esqueceu?</a>
                 </div>
                 <div class="btnsub">
                   <button type="submit">ENTRAR <img src="../images/enter-icon.svg" /></button>
@@ -67,12 +58,13 @@
           </div>
         </div>
       </div>
-      </div>
     </div>
+  </div>
 
-    <!-- JavaScript File -->
-    <script src="../js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <script src="../js/auth.js"></script>
-  </body>
+  <!-- JavaScript File -->
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="../js/auth.js"></script>
+</body>
+
 </html>
